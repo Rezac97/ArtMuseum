@@ -1,0 +1,8 @@
+<div class="row">
+  <div class="col-12" *ngFor="let item of exibitions">
+    <app-exibition-item
+      [exibition]="item"
+      [showEditButton]="false"
+    ></app-exibition-item>
+  </div>
+</div>
